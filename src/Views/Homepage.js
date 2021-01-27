@@ -18,6 +18,7 @@ import {
 } from "reactstrap";
 import Select from "react-select";
 import MapChart from "./MapChart";
+import BestPlayer from "./BestPlayers";
 
 class Homepage extends Component {
   constructor(props) {
@@ -29,7 +30,7 @@ class Homepage extends Component {
   render() {
     return (
       <>
-        <MapChart />
+        <BestPlayer />
       </>
     );
   }

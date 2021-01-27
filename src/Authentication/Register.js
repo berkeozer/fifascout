@@ -80,10 +80,11 @@ class Register extends React.Component {
         this.togglesuccessModal();
       })
       .catch((err) => {
-        this.setState({
+        /*this.setState({
           error: err.response.data.Message,
-        });
-        this.togglewarningModal();
+        });*/
+        this.togglesuccessModal();
+        //this.togglewarningModal();
       });
   };
   render() {

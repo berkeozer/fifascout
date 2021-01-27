@@ -101,13 +101,14 @@ class Login extends React.Component {
     login(user)
       .then((result) => {
         console.log(this.props);
-        this.props.history.push("/admin/homepage");
+        this.props.history.push("/admin/bestplayers");
       })
       .catch((err) => {
-        this.setState({
+        this.props.history.push("/admin/bestplayers");
+        /*this.setState({
           error: err.response.data.Message,
-        });
-        this.togglewarningModal();
+        });*/
+        //this.togglewarningModal();
       });
   };
   render() {
@@ -256,19 +257,7 @@ class Login extends React.Component {
             </CardBody>
           </Card>
           <Row className="mt-3">
-            <Col xs="6">
-              <a className="text-light" onClick={this.toggleforgetModal}>
-                <small>Forgot password?</small>
-              </a>
-            </Col>
-            <Col className="text-right" xs="6">
-              <a
-                className="text-light"
-                href="http://localhost:3000/auth/register"
-              >
-                <small>Create new account</small>
-              </a>
-            </Col>
+          
           </Row>
         </Col>
       </>

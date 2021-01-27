@@ -131,7 +131,7 @@ class Sidebar extends React.Component {
     }
     return (
       <Navbar
-        className="navbar-horizontol  navbar-light bg-#5e72e4 justify-content-between"
+        className="navbar-horizontol  navbar-light justify-content-between"
         expand="md"
         id="sidenav-main"
       >

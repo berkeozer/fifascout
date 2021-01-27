@@ -6,10 +6,12 @@ import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
 import MinimizeIcon from "@material-ui/icons/Minimize";
 import vsImg from "../assets/img/vs.jpg"
+import ronaldo from "../assets/img/ronaldo.jpeg";
+import messi from "../assets/img/messi.jpeg";
 const options = [
-  { value: "chocolate", label: "Chocolate" },
-  { value: "strawberry", label: "Strawberry" },
-  { value: "vanilla", label: "Vanilla" },
+  { value: "messi", label: "Messi" },
+  { value: "ronaldo", label: "Ronaldo" },
+
 ];
 export class PlayerCompare extends Component {
   
@@ -28,6 +30,7 @@ export class PlayerCompare extends Component {
             value={selection}
             onChange={this.handleChange}
             options={options}
+            defaultValue={{ label: "Lionel Messi", value: 0 }}
           />
           <div className="text-center">
             <h2>Please choose a player </h2>
@@ -42,6 +45,7 @@ export class PlayerCompare extends Component {
             value={selection}
             onChange={this.handleChange}
             options={options}
+            defaultValue={{ label: "Cristiano Ronaldo", value: 0 }}
           />
           <div className="text-center">
             <h2>Please choose a player </h2>
@@ -52,10 +56,10 @@ export class PlayerCompare extends Component {
         <Row>
         <Col>
             <Card style = {{height:350,width:350,borderColor:"#fb6340",marginTop:20,marginLeft:170,borderRadius:20}} >
-                <CardImg top width="100%" src={pic} alt="Card image cap" />
+                <CardImg top width="100%" top height="80%" src={messi} alt="Card image cap" />
                     <CardBody>
                       <CardTitle tag="h2" style={{textAlign:"center"}}>
-                                Erling Haland
+                                Lionel Messi
                       </CardTitle>
                    </CardBody>
               </Card>
@@ -74,10 +78,10 @@ export class PlayerCompare extends Component {
        
         <Col>
         <Card style = {{height:350,width:350,borderColor:"#fb6340",marginTop:20,marginLeft:50,borderRadius:20}} >
-                      <CardImg top width="100%" src={pic} alt="Card image cap" />
+                      <CardImg top width="100%" top height="80%" src={ronaldo} alt="Card image cap" />
                       <CardBody>
                           <CardTitle tag="h2" style={{textAlign:"center"}}>
-                                Erling Haland
+                                Cristiano Ronaldo
                           </CardTitle>
                       </CardBody>
                             </Card>
@@ -96,11 +100,11 @@ export class PlayerCompare extends Component {
                               <Col style={{marginLeft:75}}>
                              
                                <Label tag ="h2">
-                               184
+                               93
                                </Label>
                                </Col>
-                               <Col style={{marginLeft:10}}>
-                               <ArrowUpwardIcon/>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowUpwardIcon style={{ color: "green" }}/>
                                </Col>
                                </Row>
                              
@@ -112,11 +116,14 @@ export class PlayerCompare extends Component {
                                    Potential:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:55}}>
                              
                                <Label tag ="h2">
-                               184
+                               88
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowUpwardIcon style={{ color: "green" }}/>
                                </Col>
                                </Row>
                              
@@ -128,11 +135,14 @@ export class PlayerCompare extends Component {
                                    Strength:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:60}}>
                              
                                <Label tag ="h2">
-                               184
+                               75
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowDownwardIcon color="secondary"/>
                                </Col>
                                </Row>
                              
@@ -141,14 +151,17 @@ export class PlayerCompare extends Component {
                                <Row style={{marginTop:5}}>
                                    <Col style={{marginLeft:30}}>
                                    <Label tag ="h2" style={{color:"#fb6340"}}>
-                                   Sprint Speed:
+                                   SprintSpeed:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:25}}>
                              
                                <Label tag ="h2">
-                               184
+                               87
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowDownwardIcon color="secondary"/>
                                </Col>
                                </Row>
                              
@@ -160,11 +173,14 @@ export class PlayerCompare extends Component {
                                    Positioning:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:35}}>
                              
                                <Label tag ="h2">
-                               184
+                               93
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowUpwardIcon style={{ color: "green" }}/>
                                </Col>
                                </Row>
                              
@@ -176,11 +192,14 @@ export class PlayerCompare extends Component {
                                    Finishing:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:55}}>
                              
                                <Label tag ="h2">
-                               184
+                               94
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowUpwardIcon style={{ color: "green" }}/>
                                </Col>
                                </Row>
                              
@@ -189,14 +208,17 @@ export class PlayerCompare extends Component {
                                <Row style={{marginTop:5}}>
                                    <Col style={{marginLeft:30}}>
                                    <Label tag ="h2" style={{color:"#fb6340"}}>
-                                   Long Shots:
+                                   LongShots:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:40}}>
                              
                                <Label tag ="h2">
-                               184
+                               91
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowDownwardIcon color="secondary"/>
                                </Col>
                                </Row>
                              
@@ -205,14 +227,17 @@ export class PlayerCompare extends Component {
                                <Row style={{marginTop:5}}>
                                    <Col style={{marginLeft:30}}>
                                    <Label tag ="h2" style={{color:"#fb6340"}}>
-                                   Shot Power:
+                                   ShotPower:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:35}}>
                              
                                <Label tag ="h2">
-                               184
+                               87
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowDownwardIcon color="secondary"/>
                                </Col>
                                </Row>
                              
@@ -221,14 +246,17 @@ export class PlayerCompare extends Component {
                                <Row style={{marginTop:5}}>
                                    <Col style={{marginLeft:30}}>
                                    <Label tag ="h2" style={{color:"#fb6340"}}>
-                                   Short Passing:
+                                   ShortPassing:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:15}}>
                              
                                <Label tag ="h2">
-                               184
+                               95
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowUpwardIcon style={{ color: "green" }}/>
                                </Col>
                                </Row>
                              
@@ -240,11 +268,14 @@ export class PlayerCompare extends Component {
                                    Dribbling:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:50}}>
                              
                                <Label tag ="h2">
-                               184
+                               90
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowDownwardIcon color="secondary"/>
                                </Col>
                                </Row>
                              
@@ -256,11 +287,14 @@ export class PlayerCompare extends Component {
                                    Marking:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:60}}>
                              
                                <Label tag ="h2">
-                               184
+                               70
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowDownwardIcon color="secondary"/>
                                </Col>
                                </Row>
                              
@@ -280,11 +314,14 @@ export class PlayerCompare extends Component {
                                    Overall:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:75}}>
                              
                                <Label tag ="h2">
-                               184
+                               92
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowDownwardIcon color="secondary"/>
                                </Col>
                                </Row>
                              
@@ -296,11 +333,14 @@ export class PlayerCompare extends Component {
                                    Potential:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:55}}>
                              
                                <Label tag ="h2">
-                               184
+                               87
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowDownwardIcon color="secondary"/>
                                </Col>
                                </Row>
                              
@@ -312,11 +352,14 @@ export class PlayerCompare extends Component {
                                    Strength:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:60}}>
                              
                                <Label tag ="h2">
-                               184
+                               90
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowUpwardIcon style={{ color: "green" }}/>
                                </Col>
                                </Row>
                              
@@ -325,14 +368,17 @@ export class PlayerCompare extends Component {
                                <Row style={{marginTop:5}}>
                                    <Col style={{marginLeft:30}}>
                                    <Label tag ="h2" style={{color:"#fb6340"}}>
-                                   Sprint Speed:
+                                   SprintSpeed:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:25}}>
                              
                                <Label tag ="h2">
-                               184
+                               92
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowUpwardIcon style={{ color: "green" }}/>
                                </Col>
                                </Row>
                              
@@ -344,11 +390,14 @@ export class PlayerCompare extends Component {
                                    Positioning:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:35}}>
                              
                                <Label tag ="h2">
-                               184
+                               90
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowDownwardIcon color="secondary"/>
                                </Col>
                                </Row>
                              
@@ -360,11 +409,14 @@ export class PlayerCompare extends Component {
                                    Finishing:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:55}}>
                              
                                <Label tag ="h2">
-                               184
+                               93
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowDownwardIcon color="secondary"/>
                                </Col>
                                </Row>
                              
@@ -373,14 +425,17 @@ export class PlayerCompare extends Component {
                                <Row style={{marginTop:5}}>
                                    <Col style={{marginLeft:30}}>
                                    <Label tag ="h2" style={{color:"#fb6340"}}>
-                                   Long Shots:
+                                   LongShots:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:40}}>
                              
                                <Label tag ="h2">
-                               184
+                               92
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowUpwardIcon style={{ color: "green" }}/>
                                </Col>
                                </Row>
                              
@@ -389,14 +444,17 @@ export class PlayerCompare extends Component {
                                <Row style={{marginTop:5}}>
                                    <Col style={{marginLeft:30}}>
                                    <Label tag ="h2" style={{color:"#fb6340"}}>
-                                   Shot Power:
+                                   ShotPower:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:35}}>
                              
                                <Label tag ="h2">
-                               184
+                               94
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowUpwardIcon style={{ color: "green" }}/>
                                </Col>
                                </Row>
                              
@@ -405,14 +463,17 @@ export class PlayerCompare extends Component {
                                <Row style={{marginTop:5}}>
                                    <Col style={{marginLeft:30}}>
                                    <Label tag ="h2" style={{color:"#fb6340"}}>
-                                   Short Passing:
+                                   ShortPassing:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:15}}>
                              
                                <Label tag ="h2">
-                               184
+                               88
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowDownwardIcon color="secondary"/>
                                </Col>
                                </Row>
                              
@@ -424,11 +485,14 @@ export class PlayerCompare extends Component {
                                    Dribbling:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:50}}>
                              
                                <Label tag ="h2">
-                               184
+                               94
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowUpwardIcon style={{ color: "green" }}/>
                                </Col>
                                </Row>
                              
@@ -440,11 +504,14 @@ export class PlayerCompare extends Component {
                                    Marking:
                                </Label >
                                    </Col>
-                              <Col style={{marginLeft:-20}}>
+                              <Col style={{marginLeft:60}}>
                              
                                <Label tag ="h2">
-                               184
+                               75
                                </Label>
+                               </Col>
+                               <Col style={{marginLeft:20}}>
+                               <ArrowUpwardIcon style={{ color: "green" }}/>
                                </Col>
                                </Row>
                              

@@ -45,7 +45,7 @@ export default class PlayerDetail extends Component {
                         </div>
                         <Col className="col-auto">
                           <div className="icon icon-shape bg-danger text-white rounded-circle shadow">
-                            <i className="fas fa-trophy" />
+                            <i className="fas fa-sort" />
                           </div>
                         </Col>
                       </Row>
@@ -62,15 +62,15 @@ export default class PlayerDetail extends Component {
                             tag="h2"
                             className="text-uppercase text-muted mb-0"
                           >
-                            Weight
+                            Potential
                           </CardTitle>
                           <span className="h2 font-weight-bold mb-0">
-                           78
+                           93
                           </span>
                         </div>
                         <Col className="col-auto">
                           <div className="icon icon-shape bg-danger text-white rounded-circle shadow">
-                            <i className="fas fa-trophy" />
+                            <i className="fas fa-star" />
                           </div>
                         </Col>
                       </Row>
@@ -132,7 +132,7 @@ export default class PlayerDetail extends Component {
                         </div>
                         <Col className="col-auto">
                           <div className="icon icon-shape bg-danger text-white rounded-circle shadow">
-                            <i className="fas fa-trophy" />
+                            <i className="fas fa-calendar" />
                           </div>
                         </Col>
                       </Row>
@@ -155,7 +155,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2" >
-                               184
+                               90
                                </Label>
                                </Col>
                                </Row>
@@ -167,13 +167,13 @@ export default class PlayerDetail extends Component {
                                <Row style={{marginTop:15}}>
                                    <Col style={{marginLeft:30}}>
                                    <Label tag ="h2" style={{color:"#fb6340"}}>
-                                   Potential:
+                                   Weight:
                                </Label >
                                    </Col>
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               77
                                </Label>
                                </Col>
                                </Row>
@@ -191,7 +191,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-20}}>
                              
                                <Label tag ="h2">
-                               184
+                               89
                                </Label>
                                </Col>
                                </Row>
@@ -209,7 +209,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:10}}>
                              
                                <Label tag ="h2">
-                               184
+                               92
                                </Label>
                                </Col>
                                </Row>
@@ -227,7 +227,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               88
                                </Label>
                                </Col>
                                </Row>
@@ -245,7 +245,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:10}}>
                              
                                <Label tag ="h2">
-                               184
+                               87
                                </Label>
                                </Col>
                                </Row>
@@ -267,7 +267,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               86
                                </Label>
                                </Col>
                                </Row>
@@ -285,7 +285,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:10}}>
                              
                                <Label tag ="h2">
-                               184
+                               78
                                </Label>
                                </Col>
                                </Row>
@@ -303,7 +303,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:10}}>
                              
                                <Label tag ="h2">
-                               184
+                               85
                                </Label>
                                </Col>
                                </Row>
@@ -321,7 +321,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               87
                                </Label>
                                </Col>
                                </Row>
@@ -339,7 +339,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               88
                                </Label>
                                </Col>
                                </Row>
@@ -357,7 +357,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               93
                                </Label>
                                </Col>
                                </Row>
@@ -379,7 +379,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               93
                                </Label>
                                </Col>
                                </Row>
@@ -397,7 +397,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-20}}>
                              
                                <Label tag ="h2">
-                               184
+                               65
                                </Label>
                                </Col>
                                </Row>
@@ -415,7 +415,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               61
                                </Label>
                                </Col>
                                </Row>
@@ -433,7 +433,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginRight:-50}}>
                              
                                <Label tag ="h2">
-                               184
+                               67
                                </Label>
                                </Col>
                                </Row>
@@ -451,7 +451,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginRight:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               65
                                </Label>
                                </Col>
                                </Row>
@@ -469,7 +469,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               88
                                </Label>
                                </Col>
                                </Row>
@@ -491,7 +491,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-20}}>
                              
                                <Label tag ="h2">
-                               184
+                               86
                                </Label>
                                </Col>
                                </Row>
@@ -509,7 +509,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               35
                                </Label>
                                </Col>
                                </Row>
@@ -527,7 +527,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               90
                                </Label>
                                </Col>
                                </Row>
@@ -539,13 +539,13 @@ export default class PlayerDetail extends Component {
                                <Row style={{marginTop:15}}>
                                    <Col style={{marginLeft:30}}>
                                    <Label tag ="h2" style={{color:"#fb6340"}}>
-                                   Height:
+                                   Free Kick:
                                </Label >
                                    </Col>
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               80
                                </Label>
                                </Col>
                                </Row>
@@ -557,13 +557,13 @@ export default class PlayerDetail extends Component {
                                <Row style={{marginTop:15}}>
                                    <Col style={{marginLeft:30}}>
                                    <Label tag ="h2" style={{color:"#fb6340"}}>
-                                   Height:
+                                   Volley:
                                </Label >
                                    </Col>
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               83
                                </Label>
                                </Col>
                                </Row>
@@ -577,13 +577,13 @@ export default class PlayerDetail extends Component {
                                <Row style={{marginTop:15}}>
                                    <Col style={{marginLeft:30}}>
                                    <Label tag ="h2" style={{color:"#fb6340"}}>
-                                   Height:
+                                   Mental:
                                </Label >
                                    </Col>
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               89
                                </Label>
                                </Col>
                                </Row>
@@ -603,7 +603,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-20}}>
                              
                                <Label tag ="h2">
-                               184
+                               82
                                </Label>
                                </Col>
                                </Row>
@@ -621,7 +621,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:10}}>
                              
                                <Label tag ="h2">
-                               184
+                               92
                                </Label>
                                </Col>
                                </Row>
@@ -639,7 +639,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:10}}>
                              
                                <Label tag ="h2">
-                               184
+                               90
                                </Label>
                                </Col>
                                </Row>
@@ -657,7 +657,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               93
                                </Label>
                                </Col>
                                </Row>
@@ -675,7 +675,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               55
                                </Label>
                                </Col>
                                </Row>
@@ -693,7 +693,7 @@ export default class PlayerDetail extends Component {
                               <Col style={{marginLeft:-60}}>
                              
                                <Label tag ="h2">
-                               184
+                               65
                                </Label>
                                </Col>
                                </Row>
