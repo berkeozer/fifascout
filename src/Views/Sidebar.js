@@ -205,7 +205,7 @@ class Sidebar extends React.Component {
             {/* Navigation */}
             <Nav className="mb-md-3" navbar>
               <NavItem>
-                <NavLink href="http://localhost:3000/auth/logout">
+                <NavLink href="https://berkeozer.github.io/auth/login">
                   <div style={{ color: "#fb6340" }}>
                     <i className="ni ni-spaceship" />
                     LogOut
