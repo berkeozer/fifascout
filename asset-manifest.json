@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fifascout/static/css/main.71c31bcb.chunk.css",
-    "main.js": "/fifascout/static/js/main.fb48f315.chunk.js",
-    "main.js.map": "/fifascout/static/js/main.fb48f315.chunk.js.map",
+    "main.js": "/fifascout/static/js/main.eb4fb5ec.chunk.js",
+    "main.js.map": "/fifascout/static/js/main.eb4fb5ec.chunk.js.map",
     "runtime-main.js": "/fifascout/static/js/runtime-main.fae14f72.js",
     "runtime-main.js.map": "/fifascout/static/js/runtime-main.fae14f72.js.map",
     "static/css/2.e995eac1.chunk.css": "/fifascout/static/css/2.e995eac1.chunk.css",
@@ -34,6 +34,6 @@
     "static/css/2.e995eac1.chunk.css",
     "static/js/2.0ecd71db.chunk.js",
     "static/css/main.71c31bcb.chunk.css",
-    "static/js/main.fb48f315.chunk.js"
+    "static/js/main.eb4fb5ec.chunk.js"
   ]
 }
